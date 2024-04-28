@@ -91,3 +91,56 @@ git clone https://github.com/Eduardo-Solano/TAP_U2_COMPONENTE_JPREFIJOS_ITO.git
 ```
 De igual forma puedes descargarlo en formato `ZIP`
 ![ZIP](Recursos/imagen1.png)
+
+2. Abre tu proyecto en el IDE que gustes.
+3. Verifica que compile sin errores.
+4. En caso de que te marque algun error relacionado con el JDK, asegurate de estar utilizando un JDK 20 o superior.
+5. Si utilizas un JKD superior y quieres cambiar el JDK del proyecto realiza lo siguientes puntos:
+- Da clic derecho sobre el proyecto y dirigete hacia sus propiedades.
+![ResolucionJDK](Recursos/imagen2.png)
+- Luego en la parte de abajo da un clic sobre donde aparece JDK 20 y cambialo al mas reciente que te aparece.
+![ResolucionJDK2](Recursos/imagen3.png)
+6. Si utilizas un JDK inferior a 20, aqui te dejo un video tutorial de como cambiar el JDK de tu proyecto.
+
+   Link del video: https://youtu.be/j7ACYObJNtw?si=bp-nwU7BnsJabt2S
+
+7. En ocasiones Netbeans te arrojara un mensaje el cual dice que para compilar el proyecto debes actualizar tu JDK, en ese caso actualizalo.
+
+## Como implementarlo a la paleta de NetBeans
+1. Debes asegurarte que tu proyecto este compilado.
+2. Una vez compilado no es necesario crear el JAR por que ya viene incluido.
+3. Dale clic derecho sobre la paleta de NetBeans y selecciona Palette Manager.
+![PaletteManager](Recursos/imagen4.png)
+
+4. Nos aparecera un cuadro de dialogo, le damos clic en la primera opcion *Add from JAR*
+![CuadroDial](Recursos/imagen5.png)
+
+5. Ahi buscamos nuestro proyecto y entramos en el.
+![ImagProyecto](Recursos/imagen6.png)
+
+6. Ahora seleccionaremos el `.JAR` que se encuentra dentro de la carpeta dist y damos siguiente.
+![ImagJAR](Recursos/imagen7.png)
+
+7. Despues seleccionamos JPrefijo que es nuestro componente  y le damos siguiente.
+![ImagJPrefijo](Recursos/imagen8.png)
+
+8. Ahora solo seleccionamos en que apartado queremos que se muestre e componente, en mi caso elegi *Beans*.
+![ImagJPrefijo](Recursos/imagen9.png)
+
+9. Y probamos nuestro nuevo componente.
+
+## Funcionamiento
+En el siguiente link encontraras el funcionamiento y uso del componente JPrefijo:
+
+Da clic para ver: https://youtu.be/fMSMEly1XxI?si=2NwE1OBVm4rebtPH
+
+## ¡NOTA!
+Recuerda que para implementar este componente en cualquier proyecto debes tener encuenta lo siguiente:
+- Si deseas guardar el valor que contiene el textField tienes que mandar a ejecutar el metodo `getNumero()`. 
+Ejemplo: `String numero`= nombre_del_componente.`getNumero()`.
+
+- Si deseas guardar el valor que contiene seleccionado por el comboBox tienes que mandar a ejecutar el metodo `getPais()`. 
+Ejemplo: `String pais`= nombre_del_componente.`getPais()`.
+
+- Si deseas guardar el valor que contiene la Lada tienes que mandar a ejecutar el metodo `getCombo()`. 
+Ejemplo: `String lada`= nombre_del_componente.`getCombo()`.
