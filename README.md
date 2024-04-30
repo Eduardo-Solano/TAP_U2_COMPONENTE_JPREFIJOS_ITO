@@ -146,5 +146,5 @@ Ejemplo: `String pais`= nombre_del_componente.`getPais()`.
 Ejemplo: `String lada`= nombre_del_componente.`getCombo()`.
 
 ## Autores
-- *Eduardo Solano Ramos*- Contacto: [Eduardo-Solano (github.com)]
-- *Jesus Abraham Mendoza Chavez*-Contacto: [Jesus18902 (github.com)]
+- *Eduardo Solano Ramos*- Contacto: [https://github.com/Eduardo-Solano].
+- *Jesus Abraham Mendoza Chavez*-Contacto: [https://github.com/Jesus18902].
